@@ -55,6 +55,8 @@ do
 		echo "	-n NTP-Client CIDR netmask"
 		echo "		eg: 255.255.255.0"
 		echo ""
+		echo "	eg: ./install_ntp.sh -s ntp1.aliyun.com -c 192.168.1.0 -n 255.255.255.0"
+		echo ""
 		exit 0;
 		;;
 	s)
